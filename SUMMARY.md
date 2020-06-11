@@ -7,6 +7,7 @@
 * [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
 * [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
 * [3. 安装＆配置面板](./)
+  * [选择适合自己的面板](getting-started/choose-your-favourite-panel.md)
   * [VNetPanel 面板](getting-started/install-vnetpanel.md)
   * [V2Board 面板](getting-started/install-v2board.md)
   * [SSPanel 面板](getting-started/install-sspanel.md)

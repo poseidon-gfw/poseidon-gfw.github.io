@@ -1,10 +1,10 @@
-# SSPanel & V2Ray Poseidon
+# V2board & V2Ray Poseidon
 
 ### 目录
 
 * [1. 域名配置](../getting-started/yu-ming-pei-zhi.md)
 * [2. 安装宝塔](../getting-started/an-zhuang-bao-ta.md)
-* [3. 安装 SSPanel 面板](../getting-started/install-v2board.md)
+* [3. 安装 V2board 面板](../getting-started/install-v2board.md)
 
 ## 节点部署（以WebSocket-TLS 模式为例）
 

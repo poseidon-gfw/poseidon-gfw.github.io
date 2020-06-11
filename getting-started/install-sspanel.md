@@ -1,5 +1,10 @@
 # 安装 SSPanel 面板
 
+### 目录
+
+* [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
+* [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
+
 ### 添加网站
 
 > 本教程根目录为 **/www/wwwroot/sspanel**

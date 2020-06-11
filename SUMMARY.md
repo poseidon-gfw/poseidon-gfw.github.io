@@ -5,7 +5,9 @@
 ## Getting Started
 
 * [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
+  * [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
 * [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
+  * [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
 
 ## V2Ray Poseidon
 

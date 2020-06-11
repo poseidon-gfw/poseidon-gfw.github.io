@@ -1,19 +1,10 @@
 # 搭配 VNetPanel 面板
 
-## 部署准备
+### 目录
 
-> Linux 服务器（操作系统Centos7）  
-> 域名  
-> Shell 终端  
-> VNetPanel，该面板为付费面板，请找 [VNetPanel 作者](https://t.me/esp8266mod) 或 [藤原 佑为](https://t.me/garhing) 进行购买
-
-## 域名解析
-
-[域名解析](https://github.com/poseidon-gfw/poseidon-gfw.github.io/tree/420d1b3dcd2da1b399cb84712207eeed6e5adf67/_include/_setup_domain.md)
-
-## VNetPanel 面板部署
-
-[VNetPanel 面板部署](https://github.com/poseidon-gfw/poseidon-gfw.github.io/tree/420d1b3dcd2da1b399cb84712207eeed6e5adf67/_include/_setup_vnetpanel.md)
+* [1. 域名配置](../getting-started/yu-ming-pei-zhi.md)
+* [2. 安装宝塔](../getting-started/an-zhuang-bao-ta.md)
+* [3. 安装 VNetPanel 面板](../getting-started/install-vnetpanel.md)
 
 ### 商业授权
 
@@ -198,9 +189,53 @@ systemctl status v2ray
 > 服务端 TLS =&gt; 关闭  
 > 连接 TLS =&gt; 启用
 
+
+[comment]: <> (TLS证书 BEGIN)
 ### 配置 TLS 证书
 
-[tls\_json](https://github.com/poseidon-gfw/poseidon-gfw.github.io/tree/420d1b3dcd2da1b399cb84712207eeed6e5adf67/_include/tls_json.md)
+**使用已有证书**
 
-[Licensing](https://github.com/poseidon-gfw/poseidon-gfw.github.io/tree/420d1b3dcd2da1b399cb84712207eeed6e5adf67/_include/_licensing.md)
+```json
+{"provider": "local", "certPath": "/etc/v2ray/v2ray.crt", "keyPath": "/etc/v2ray/v2ray.key"}
+```
 
+使用 DNS 验证，自动生成 TLS 证书
+
+通过 DNS 验证来生成证书，这样不需要端口占用，较为方便和通用
+
+> CloudFlare  
+{"provider": "cloudflare", "email": "", "api_key": ""}
+
+> Alibaba Cloud DNS  
+{"provider": "alidns", "email": "", "access_key": "", "secret_key": ""}
+
+> Gandi  
+{"provider": "gandi", "email": "", "api_key": ""}
+
+> Go Daddy  
+{"provider": "godaddy", "email": "", "api_key": "", "api_secret": ""}
+
+[comment]: <> (TLS证书 END)
+
+[comment]: <> (LICENSING BEGIN)
+## 商业授权
+
+> **Poseidon授权，未授权只能限制 50 人使用。**  
+用户数说明：限制 50 人时，请按面板用户数来算，如果你发现超过 50 还能用，那是你赚到的，与此同时你需要承担相应的风险，可能在某个时刻后端会集体挂掉，重启也无法启动，所以请在面板人数小于等于 50 时，加群购买授权码，以防出现无法服务的情况。  
+50人限制的真实含义：面板有效用户数。有效用户为那些有权连接到你的节点的用户，一般来说就是 **流量没超、还没到期、以及未被管理员封禁** 的那些用户。
+
+### 商业授权版价格（单位USDT）
+
+| 人数 | 	≤1000 |	≤4000 |	＞4000 |
+|-----|--------|-------|--------|
+|一年	| 80	| 160	| 240    |
+|两年	| 145 |	290 | 	430  |
+|三年	| 200 |	400 | 	600  |
+|永久	| 350 |	700 | 	1000 |
+
+> 备注：以上授权均为在线授权，修改域名/面板一次 5USDT  
+> 该授权为虚拟物品，不支持退款，请先使用社区版测试所有功能，如果能达到您的预期再进行购买。
+
+> [购买V2Ray Poseidon商业授权](https://t.me/mara915)
+
+[comment]: <> (LICENSING END)

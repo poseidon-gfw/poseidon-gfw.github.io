@@ -6,10 +6,10 @@
 
 * [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
 * [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
-* [3. 选择面板](./)
+* [3. 安装＆配置面板](./)
   * [VNetPanel 面板](getting-started/install-vnetpanel.md)
-  * [V2Board](getting-started/install-v2board.md)
-  * [SSPanel](getting-started/install-sspanel.md)
+  * [V2Board 面板](getting-started/install-v2board.md)
+  * [SSPanel 面板](getting-started/install-sspanel.md)
 
 ## 使用 V2Ray Poseidon
 

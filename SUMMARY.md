@@ -2,6 +2,10 @@
 
 * [Poseidon GFW 是什么？](README.md)
 
+## Getting Started
+
+* [域名配置](getting-started/yu-ming-pei-zhi.md)
+
 ## V2Ray Poseidon
 
 * [欢迎您使用 V2Ray-Poseidon](v2ray-poseidon/index.md)

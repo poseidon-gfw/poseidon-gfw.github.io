@@ -41,9 +41,32 @@ wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x
 
 **reboot** 重启完成后 `./tcp.sh` 进入管理脚本，开启加速
 
-![](../.gitbook/assets/2020-05-17-22-48-18.png) ![](../.gitbook/assets/2020-05-17-22-49-57.png)
+![](../.gitbook/assets/2020-05-17-22-48-18.png)
 
-[同步时间](https://github.com/poseidon-gfw/poseidon-gfw.github.io/tree/420d1b3dcd2da1b399cb84712207eeed6e5adf67/_include/_sync_date_time.md)
+![](../.gitbook/assets/2020-05-17-22-49-57.png)
+
+[comment]: <> (同步时间 BEGIN)
+
+### 同步时间
+
+#### Debian/Ubuntu
+
+```bash
+apt-get install -y ntp
+service ntp restart
+```
+
+#### CentOS/RHEL
+
+```bash
+yum -y install ntpdate
+timedatectl set-timezone Asia/Shanghai
+ntpdate ntp1.aliyun.com
+```
+
+![](../.gitbook/assets/2020-05-17-22-50-43.png)
+
+[comment]: <> (同步时间 END)
 
 #### 关闭防火墙
 

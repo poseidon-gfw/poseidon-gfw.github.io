@@ -2,18 +2,20 @@
 
 * [Poseidon GFW 是什么？](README.md)
 
-## Getting Started
+## 准备工作
 
 * [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
-  * [1. 域名配置](getting-started/yu-ming-pei-zhi.md)
 * [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
-  * [2. 安装宝塔](getting-started/an-zhuang-bao-ta.md)
+* 3. 选择面板
+  * [VNetPanel 面板](getting-started/install-vnetpanel.md)
+  * [V2Board](getting-started/install-v2board.md)
+  * [SSPanel](getting-started/install-sspanel.md)
 
-## V2Ray Poseidon
+## 使用 V2Ray Poseidon
 
 * [欢迎您使用 V2Ray-Poseidon](v2ray-poseidon/index.md)
 * [搭配 VNetPanel 面板](v2ray-poseidon/da-pei-vnetpanel-mian-ban.md)
 
-## Trojan Poseidon
+## 使用 Trojan Poseidon
 
 * [Untitled](trojan-poseidon/untitled.md)

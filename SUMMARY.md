@@ -21,4 +21,5 @@
 
 ## 使用 Trojan Poseidon
 
-* [Untitled](trojan-poseidon/untitled.md)
+* [搭配 VNetPanel 面板](trojan-poseidon/with-vnetpanel.md)
+* [搭配 SSPanel 面板](trojan-poseidon/with-sspanel.md)

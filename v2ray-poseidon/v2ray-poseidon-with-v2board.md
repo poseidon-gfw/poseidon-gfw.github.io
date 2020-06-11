@@ -85,18 +85,18 @@ systemctl status docker.service
 
 #### CloudFlare节点域名解析，将节点地址通过A记录指向节点服务器iP，云朵灰色
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-17-22-35-54.png)
+![](../.gitbook/assets/2020-05-17-22-35-54.png)
 
 #### 后台新增节点，TLS+WebSocket模式，连接端口和服务端口均为443，按需求添加审计规则或DNS规则
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-17-22-27-17.png)
+![](../.gitbook/assets/2020-05-17-22-27-17.png)
 
 ```bash
 yum install -y git 2> /dev/null || apt install -y git
 git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 ```
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-17-23-01-31.png)
+![](../.gitbook/assets/2020-05-17-23-01-31.png)
 
 修改配置文件
 
@@ -106,7 +106,7 @@ git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 > "webapi": "",// v2board 的域名信息
 > "token": "", // v2board 和 v2ray-poseidon 的通信密钥
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-17-23-01-48.png)
+![](../.gitbook/assets/2020-05-17-23-01-48.png)
 
 > 修改 /root/v2ray-poseidon/docker/v2board/ws-tls 目录下的docker-compose.yml
 
@@ -116,7 +116,7 @@ git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 CF_API_EMAIL= 你的Cloudflare账户  
 CF_API_KEY=你的Cloudflare key
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-17-23-05-23.png)
+![](../.gitbook/assets/2020-05-17-23-05-23.png)
 
 Cloudflare key获取
 
@@ -143,9 +143,9 @@ dc logs
 
 日志无报错此时节点状态为蓝色，打开显隐开关用户中心就能看到节点
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-18-07-59-32.png)
+![](../.gitbook/assets/2020-05-18-07-59-32.png)
 
-![](file:///Users/bob/Downloads/V2board%20&%20Poseidon%20V2Ray_files/2020-05-18-08-00-27.png)
+![](../.gitbook/assets/2020-05-18-08-00-27.png)
 
 > 无法正常使用请获取运行日志到 [V2Ray Poseidon](https://t.md/v2ray_poseidon) 提问
 

@@ -4,7 +4,7 @@
 
 ## V2Ray Poseidon
 
-* [欢迎您使用 V2Ray-Poseidon](v2ray-poseidon/untitled.md)
+* [欢迎您使用 V2Ray-Poseidon](v2ray-poseidon/index.md)
 
 ## Trojan Poseidon
 

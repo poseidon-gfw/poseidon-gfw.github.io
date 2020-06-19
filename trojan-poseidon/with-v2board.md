@@ -17,9 +17,9 @@
 
 ![](../.gitbook/assets/v2board-trojanp/add-dns-a-record.jpg)
 
-![](../.gitbook/assets/v2board-trojanp/v2board-trojan-server-list-page.jpg)
-
 **添加 Trojan 节点**
+
+![](../.gitbook/assets/v2board-trojanp/v2board-trojan-server-list-page.jpg)
 
 ![](../.gitbook/assets/v2board-trojanp/v2board-add-trojan-node-view.jpg)
 
@@ -45,7 +45,7 @@
 
 ### 配置文件
 
-![](../.gitbook/assets/v2board-trojanp/2020-05-18-12-57-04.png)
+![](../.gitbook/assets/2020-05-18-12-57-04.png)
 
 ### 启动
 

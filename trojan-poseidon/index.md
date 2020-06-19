@@ -2,8 +2,6 @@
 description: Trojan-Poseidon 是一个运行在远端服务器上 Trojan 服务，方便地对接各种面板。
 ---
 
-## 欢迎您使用 Trojan-Poseidon
-
 #### 特点
 
 * 自动生成 TLS 证书

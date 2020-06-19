@@ -15,9 +15,9 @@
 
 **将域名 A 记录指向节点 IP**
 
-![](../.gitbook/assets/v2board-trojanp/add-dns-a-record.jp2)
+![](../.gitbook/assets/v2board-trojanp/add-dns-a-record.jpg)
 
-![](../.gitbook/assets/v2board-trojanp/v2board-trojan-server-list-page.jp2)
+![](../.gitbook/assets/v2board-trojanp/v2board-trojan-server-list-page.jpg)
 
 **添加 Trojan 节点**
 
@@ -61,13 +61,13 @@ systemctl status trojanp
 
 > 状态显示 **Active: active (running)** 表示正常运行，非正常状态请查看日志（`journalctl -x -n 300 --no-pager -u trojanp`）排查原因
 
-![](../.gitbook/assets/v2board-trojanp/v2board-trojanp-status-command-result.jp2)
+![](../.gitbook/assets/v2board-trojanp/v2board-trojanp-status-command-result.jpg)
 
 **直接访问 https://你的域名**
 
 可以看到默认的小恐龙游戏，你也可以修改 `/root/trojanp/Poseidonfile` 中的 `mirror` 改成任意的网站
 
-![](../.gitbook/assets/v2board-trojanp/v2board-trojanp-access-443-directly.jp2)
+![](../.gitbook/assets/v2board-trojanp/v2board-trojanp-access-443-directly.jpg)
 
 > 在面板中可以看到节点已经在线了
 

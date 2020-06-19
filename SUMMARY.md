@@ -21,6 +21,7 @@
 
 ## 使用 Trojan Poseidon
 
+* [欢迎您使用 Trojan-Poseidon](trojan-poseidon/index.md)
 * [搭配 VNetPanel 面板](trojan-poseidon/with-vnetpanel.md)
 * [搭配 V2Board 面板](trojan-poseidon/with-v2board.md)
 * [搭配 SSPanel 面板](trojan-poseidon/with-sspanel.md)

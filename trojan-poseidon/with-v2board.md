@@ -25,6 +25,18 @@
 
 ### 节点部署
 
+[comment]: <> (CENTOS DISABLE SELINUX BEGIN)
+
+CentOS 需要先关闭 SELinux
+
+```
+sed -i 's/enforcing/disabled/g' /etc/selinux/config /etc/selinux/config
+# 修改完之后需要重启系统
+reboot
+```
+
+[comment]: <> (CENTOS DISABLE SELINUX END)
+
 ```bash
 (yum install curl 2> /dev/null || apt install curl 2> /dev/null) \
   && curl -L -s https://bit.ly/3esZ7ec \

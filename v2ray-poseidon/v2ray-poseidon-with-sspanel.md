@@ -12,6 +12,18 @@
 
 通过SSH工具访问服务器
 
+[comment]: <> (CENTOS DISABLE SELINUX BEGIN)
+
+CentOS 禁用 SELinux
+
+```
+sed -i 's/enforcing/disabled/g' /etc/selinux/config /etc/selinux/config
+# 修改完之后需要重启系统
+reboot
+```
+
+[comment]: <> (CENTOS DISABLE SELINUX END)
+
 安装加速
 
 > 推荐使用BBR2或BBRPlus

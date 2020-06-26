@@ -35,6 +35,18 @@
 
 ### 节点部署
 
+[comment]: <> (CENTOS DISABLE SELINUX BEGIN)
+
+CentOS 需要先关闭 SELinux
+
+```
+sed -i 's/enforcing/disabled/g' /etc/selinux/config /etc/selinux/config
+# 修改完之后需要重启系统
+reboot
+```
+
+[comment]: <> (CENTOS DISABLE SELINUX END)
+
 > 直接将上面部署命令复制到节点服务器里即可
 
 ![](../.gitbook/assets/2020-05-18-18-21-38.png)

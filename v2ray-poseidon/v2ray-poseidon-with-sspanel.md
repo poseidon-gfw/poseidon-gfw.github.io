@@ -140,7 +140,7 @@ git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 CF_API_EMAIL= 你的Cloudflare账户  
 CF_API_KEY=你的Cloudflare key  
 
-![](../.gitbook/assets/2020-05-17-23-01-48.png)
+![](../.gitbook/assets/2020-05-17-23-05-23.png)
 
 Cloudflare key获取
 

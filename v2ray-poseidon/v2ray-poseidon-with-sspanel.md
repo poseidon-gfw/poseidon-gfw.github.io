@@ -130,7 +130,7 @@ git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 "panelUrl": "",// SSPanel 面板地址  
 "panelKey": "", // SSPanel 面板的配置文件中的 muKey 的值
 
-![](../.gitbook/assets/2020-05-18-12-12-20.png)
+![](../.gitbook/assets/2020-05-17-23-01-48.png)
 
 修改 `/root/v2ray-poseidon/docker/sspanel/ws-tls` 目录下的 `docker-compose.yml`
 

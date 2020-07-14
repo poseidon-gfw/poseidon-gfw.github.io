@@ -11,7 +11,7 @@
 yum -y install haproxy
 ```
 
-#### 修改配置文件
+#### 修改 HAProxy 配置文件
 
 清空默认配置
 

@@ -1,5 +1,10 @@
 ## HAProxy SNI 中转 TLS 获取用户真实 IP
 
+后端最低版本要求：
+
+- Trojanp >= 0.0.8
+- V2Ray-Poseidon >= 1.5.9
+
 ####  安装 HAProxy
 
 ```

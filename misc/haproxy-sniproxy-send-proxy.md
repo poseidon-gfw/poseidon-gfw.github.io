@@ -66,3 +66,9 @@ systemctl restart haproxy
 | 端口  | 20001     |
 | Peer 名称  |  sg1-test-trojanp.poseidon-gfw.cc  |
 
+#### Trojanp SSPanel-Uim 节点地址
+
+```
+中转机域名或IP;port=中转端口|host=落地机对应的域名
+```
+

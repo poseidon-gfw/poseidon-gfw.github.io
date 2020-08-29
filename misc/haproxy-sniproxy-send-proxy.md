@@ -3,7 +3,11 @@
 后端最低版本要求：
 
 - Trojanp >= 0.0.8
-- V2Ray-Poseidon >= 1.5.9
+- V2Ray-Poseidon >= 1.6.0
+
+#### V2Ray 配置
+
+修改 `config.json` 将 poseidon 配置下面的 `acceptProxyProtocol` 选项值改为 `true`
 
 ####  安装 HAProxy
 

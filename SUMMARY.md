@@ -15,6 +15,7 @@
 ## 使用 V2Ray Poseidon
 
 * [欢迎您使用 V2Ray-Poseidon](v2ray-poseidon/index.md)
+* [更新日志](v2ray-poseidon/index.md)
 * [搭配 VNetPanel 面板](v2ray-poseidon/da-pei-vnetpanel-mian-ban.md)
 * [搭配 V2Board 面板](v2ray-poseidon/v2ray-poseidon-with-v2board.md)
 * [搭配 SSPanel 面板](v2ray-poseidon/v2ray-poseidon-with-sspanel.md)

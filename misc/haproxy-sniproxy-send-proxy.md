@@ -3,7 +3,7 @@
 后端最低版本要求：
 
 - Trojanp >= 0.0.8
-- V2Ray-Poseidon >= 1.6.0
+- V2Ray-Poseidon >= 1.6.1
 
 #### V2Ray 配置
 

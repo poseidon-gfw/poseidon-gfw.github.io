@@ -141,9 +141,9 @@ git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 1. 使用 dns 验证生成证书
 
 > CERT_MODE  = dns
-DNS_PROVIDER = dns_cf          # 修改为你的域名托管服务商
-CERT_DOMAIN  = yourdomain.com  # 证书的域名
-然后根据自己的服务商修改下面的选项
+> DNS_PROVIDER = dns_cf          # 修改为你的域名托管服务商
+> CERT_DOMAIN  = yourdomain.com  # 证书的域名
+> 然后根据自己的服务商修改下面的选项
 
 Cloudflare key获取
 
@@ -157,15 +157,15 @@ Cloudflare key获取
 2. 使用 http（即机器的 80 端口）生成证书
 
 > ports 下面的 80 端口映射到主机并放行
-CERT_MODE   = http
-CERT_DOMAIN = yourdomain.com
+> CERT_MODE   = http
+> CERT_DOMAIN = yourdomain.com
 
 3. 已有证书文件
 
 > 把证书文件通过 volume 映射到容器，假设你的证书文件在当前目录下，文件名为 v2ray.crt 和 v2ray.key
-将 CERT_FILE 和 KEY_FILE 前面的注释删除
-CERT_FILE = /etc/v2ray/v2ray.crt # 和映射的冒号后面的路径一致
-KEY_FILE =  /etc/v2ray/v2ray.key # 和映射的冒号后面的路径一致
+> 将 CERT_FILE 和 KEY_FILE 前面的注释删除
+> CERT_FILE = /etc/v2ray/v2ray.crt # 和映射的冒号后面的路径一致
+> KEY_FILE =  /etc/v2ray/v2ray.key # 和映射的冒号后面的路径一致
 
 编辑完成后保存
 

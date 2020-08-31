@@ -29,3 +29,5 @@
 ## 杂项
 
 * [HAProxy SNI 中转 TLS 获取用户真实 IP](misc/haproxy-sniproxy-send-proxy.md)
+* [使用 systemd 多开 V2Ray 实例](misc/run-multi-instance-of-v2ray-poseidon.md)
+* [SSH 免密码登录配置](misc/ss-login-without-pw.md)

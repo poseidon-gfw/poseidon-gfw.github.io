@@ -158,7 +158,7 @@ Cloudflare key获取
 
 > ports 下面的 80 端口映射到主机并放行
 CERT_MODE   = http
-CERT_DOMAIN = yourdomain.com  # 证书的域名
+CERT_DOMAIN = yourdomain.com
 
 3. 已有证书文件
 

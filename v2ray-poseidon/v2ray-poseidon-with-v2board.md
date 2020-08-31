@@ -120,15 +120,18 @@ git clone https://github.com/ColetteContreras/v2ray-poseidon.git
 
 ![](../.gitbook/assets/2020-05-17-23-01-48.png)
 
-> 修改 /root/v2ray-poseidon/docker/v2board/ws-tls 目录下的docker-compose.yml
+修改 `/root/v2ray-poseidon/docker/v2board/ws-tls` 目录下的 `docker-compose.yml`
 
-> command: tls cloudflare 节点域名  
-例子： command: tls cloudflare node-1.conse.xyz  
-服务端口改为443  
-CF_API_EMAIL= 你的Cloudflare账户  
-CF_API_KEY=你的Cloudflare key
+#### 配置 TLS 证书
 
-![](../.gitbook/assets/2020-05-17-23-05-23.png)
+有三种配置证书的方式：
+
+1. 使用 dns 验证生成证书
+
+> CERT_MODE  = dns  
+DNS_PROVIDER = dns_cf          # 修改为你的域名托管服务商  
+CERT_DOMAIN  = yourdomain.com  # 证书的域名  
+然后根据自己的服务商修改下面的选项  
 
 Cloudflare key获取
 
@@ -137,6 +140,21 @@ Cloudflare key获取
 ![](../.gitbook/assets/2020-05-17-23-08-19.png)
 
 ![](../.gitbook/assets/2020-05-17-23-07-12.png)
+
+
+2. 使用 http（即机器的 80 端口）生成证书
+
+> ports 下面的 80 端口映射到主机并放行  
+- "80:80"  
+CERT_MODE   = http  
+CERT_DOMAIN = yourdomain.com  
+
+3. 已有证书文件
+
+> 把证书文件通过 volume 映射到容器，假设你的证书文件在当前目录下，文件名为 v2ray.crt 和 v2ray.key  
+将 CERT_FILE 和 KEY_FILE 前面的注释删除  
+CERT_FILE = /etc/v2ray/v2ray.crt # 和映射的冒号后面的路径一致  
+KEY_FILE =  /etc/v2ray/v2ray.key # 和映射的冒号后面的路径一致  
 
 编辑完成后保存
 

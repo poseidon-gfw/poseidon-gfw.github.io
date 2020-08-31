@@ -157,6 +157,7 @@ Cloudflare key获取
 2. 使用 http（即机器的 80 端口）生成证书
 
 > ports 下面的 80 端口映射到主机并放行  
+- "80:80"  
 CERT_MODE   = http  
 CERT_DOMAIN = yourdomain.com  
 

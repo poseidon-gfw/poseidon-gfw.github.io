@@ -37,6 +37,12 @@ systemctl stop v2ray@v2cc
 systemctl status v2ray@v2cc
 ```
 
+#### Logs
+
+```
+systemctl status -l v2ray@v2cc
+```
+
 
 ### List all your instances
 

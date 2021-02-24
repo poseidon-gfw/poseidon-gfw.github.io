@@ -1,11 +1,6 @@
----
-description: >-
-  若你的 SSPanel 面板还未配置过单端口多用户的话，请先按 <a
-  href="./sspanel-mian-ban-pei-zhi-dan-duan-kou-duo-yong-hu">《SSPanel面板配置单端口多用户》</a>
-  进行配置
----
-
 # SSPanel 添加节点，并部署 Shadowsocks Poseidon
+
+若你的 SSPanel 面板还未配置过单端口多用户的话，请先按 [《SSPanel面板配置单端口多用户》](./sspanel-mian-ban-pei-zhi-dan-duan-kou-duo-yong-hu) 进行配置
 
 ## 添加 Shadowsocks Poseidon 节点
 

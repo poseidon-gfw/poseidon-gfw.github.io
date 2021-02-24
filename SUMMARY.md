@@ -37,3 +37,8 @@
 * [配置多个入口](za-xiang/config-multi-inbounds.md)
 * [SSH 免密码登录配置](za-xiang/ss-login-without-pw.md)
 
+## Shadowsocks Poseidon
+
+* [SSPanel 添加节点，并部署 Shadowsocks Poseidon](shadowsocks-poseidon/sspanel-tian-jia-jie-dian-bing-bu-shu-shadowsocks-poseidon.md)
+* [SSPanel面板配置单端口多用户](shadowsocks-poseidon/sspanel-mian-ban-pei-zhi-dan-duan-kou-duo-yong-hu.md)
+

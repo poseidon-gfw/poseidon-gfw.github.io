@@ -20,6 +20,11 @@
 * [搭配 V2Board 面板](shi-yong-v2ray-poseidon/v2ray-poseidon-with-v2board.md)
 * [搭配 SSPanel 面板](shi-yong-v2ray-poseidon/v2ray-poseidon-with-sspanel.md)
 
+## Shadowsocks Poseidon
+
+* [SSPanel 添加节点，并部署 Shadowsocks Poseidon](shadowsocks-poseidon/sspanel-tian-jia-jie-dian-bing-bu-shu-shadowsocks-poseidon.md)
+* [SSPanel面板配置单端口多用户](shadowsocks-poseidon/sspanel-mian-ban-pei-zhi-dan-duan-kou-duo-yong-hu.md)
+
 ## 使用 Trojan Poseidon
 
 * [欢迎您使用 Trojan-Poseidon](shi-yong-trojan-poseidon/index.md)
@@ -36,9 +41,4 @@
 * [V2Ray 高玩：自定义 V2Ray 配置文件](za-xiang/use-local-config.md)
 * [配置多个入口](za-xiang/config-multi-inbounds.md)
 * [SSH 免密码登录配置](za-xiang/ss-login-without-pw.md)
-
-## Shadowsocks Poseidon
-
-* [SSPanel 添加节点，并部署 Shadowsocks Poseidon](shadowsocks-poseidon/sspanel-tian-jia-jie-dian-bing-bu-shu-shadowsocks-poseidon.md)
-* [SSPanel面板配置单端口多用户](shadowsocks-poseidon/sspanel-mian-ban-pei-zhi-dan-duan-kou-duo-yong-hu.md)
 
